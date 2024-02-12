@@ -105,5 +105,8 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 166
 text = "Game Over"
 
+[node name="PineTree14" parent="." instance=ExtResource("2_svs6d")]
+position = Vector2(840, 615)
+
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
